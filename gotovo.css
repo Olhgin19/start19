@@ -1,0 +1,198 @@
+:root {
+	--black: #311f09;
+	--blue: #4682b4;
+	--white: #fff;
+}
+
+body,
+html {
+	font-family: 'Roboto', serif;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1237px;
+	margin: 0px auto;
+}
+
+/* HEADER*/
+
+header {
+	margin-top: 51px;
+}
+
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_content_last {
+	align-items: center;
+	display: flex;
+}
+
+.header_content_last img {
+	margin-right: 25px;
+}
+
+nav a {
+	text-decoration: none;
+	margin-right: 35px;
+	color: var(--black);
+	display: inline-block;
+	transition: all 0.4s ease;
+}
+
+nav a:hover {
+	color: var(--blue);
+	transform: scale(1.05);
+}
+
+nav a:last-of-type {
+	margin-right: 0;
+}
+
+nav a.cheked {
+	color: var(--blue);
+}
+
+/* MAIN */
+main {
+	margin-top: 170px;
+}
+
+.main-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: left;
+}
+
+.main-content_about {
+	color: var(--white);
+	background-color: var(--blue);
+	padding: 12px 34px;
+	border-radius: 126px;
+	display: inline-block;
+
+	margin-bottom: 22px;
+}
+
+.main-content h1 {
+	color: var(--black);
+	font-size: 45px;
+	line-height: 110%;
+	font-weight: 500;
+
+	margin-bottom: 30px;
+}
+
+.main-content p {
+	line-height: 200%;
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 77px;
+	color: var(--black);
+}
+
+.main-content__buttons a:first-of-type {
+	padding: 17px 62px;
+	background-color: var(--blue);
+	border-radius: 162px;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 23px;
+	display: inline-block;
+
+	transition: transform 0.4s ease;
+}
+
+.main-content__buttons a:last-of-type {
+	padding: 17px 55px;
+	background-color: var(--blue);
+	border-radius: 162px;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 23px;
+	display: inline-block;
+
+	transition: transform 0.4s ease;
+}
+
+.main-content__buttons a:hover {
+	transform: scale(1.05);
+}
+
+.main-content__buttons a:hover {
+	transform: scale(1.05);
+}
+
+/* WELCOM */
+
+.welcome {
+	background-color: rgba(50, 143, 220, 0.2);
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.welcome-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.welcome-text {
+	margin-left: 20px;
+}
+
+.welcome-inner h2 {
+	font-family: 'Liter', serif;
+	font-weight: 700;
+	line-height: 110%;
+	font-size: 60px;
+	margin-bottom: 30px;
+	font-style: normal;
+
+	color: var(--black);
+}
+
+.welcome-inner h2 span {
+	color: var(--blue);
+}
+
+.welcome-inner p {
+	color: var(--black);
+	line-height: 200%;
+	margin-bottom: 80px;
+}
+
+.welcome-inner a {
+	background-color: var(--blue);
+	color: #fff;
+	padding: 17px 45px;
+	border-radius: 162px;
+	text-decoration: none;
+	display: inline-block;
+
+	transition: transform 0.3s ease;
+}
+
+.welcome-inner a:hover {
+	transform: scale(1.1);
+}
